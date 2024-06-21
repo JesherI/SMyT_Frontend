@@ -21,6 +21,6 @@
       "app/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/homepage.jsx", "src/app/components/footer.jsx", "src/app/page.jsx"],
   "exclude": ["node_modules"]
 }

@@ -1,0 +1,23 @@
+.iphone-14-15-pro-max-home,
+.iphone-14-15-pro-max-home-child {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    red,
+    rgba(0, 209, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0)
+  );
+}
+.iphone-14-15-pro-max-home-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: none;
+}
+.iphone-14-15-pro-max-home {
+  height: 932px;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #f8f6f6;
+    padding: 10px 20px;
+  }
+  
+  .navLinks, .navLinksRight {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLinksRight {
+    margin-left: 20px; 
+  }
+
+
+  .Registrarse{
+    margin-left: 750px;
+
+  }
+
+  
+  .navLinks li, .navLinksRight li {
+    display: inline;
+  }
+  
+  .navLinks a, .navLinksRight a {
+    color: rgb(87, 16, 83);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navLinks a:hover, .navLinksRight a:hover {
+    text-decoration: underline;
+  }
+  

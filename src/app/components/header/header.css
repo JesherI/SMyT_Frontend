@@ -1,58 +1,19 @@
-.logo-con-fecha,
-.logo-icon {
-  position: relative;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-
-.logo-con-fecha {
-  width: 460px;
-}
-
-.logo-icon {
-  align-self: stretch;
-  flex: 1;
-  overflow: hidden;
-}
-
-.index,
-.logo-wrapper {
+.header {
+  width: 100%;
   display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
   box-sizing: border-box;
 }
 
-.logo-wrapper {
-  height: 113px;
-  width: 336.1px;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 13px 0 0;
+.conetnt-logo-con-fecha, .content-logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conetnt-logo-con-fecha img, .content-logo-icon img {
   max-width: 100%;
-}
-
-.index {
-  width: 100%;
-  background-color: #fff;
-  overflow: hidden;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 37px 42px 37px 38px;
-  line-height: normal;
-  letter-spacing: normal;
-  gap: 20px;
-}
-
-@media screen and (max-width: 896px) {
-  .index {
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .index {
-    padding-right: 21px;
-    box-sizing: border-box;
-  }
+  height: auto;
 }

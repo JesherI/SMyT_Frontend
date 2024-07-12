@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.izquierda, .derecha {
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.izquierda{
+    color: #502a6e;
+}
+
+.derecha.right{
+    color: #502a6e;
+}
+
+.derecha.left{
+    background-color: #502a6e;
+    color: #ffffff;
+}
+
+
+.right {
+    margin-left: 20px;
+    padding-right: 30px;
+}
+
+.left{
+    padding-left: 30px ;
+}

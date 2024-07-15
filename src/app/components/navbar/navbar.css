@@ -18,19 +18,20 @@
     color: #502a6e;
 }
 
-.derecha.right{
-    color: #502a6e;
-}
-
-.derecha.left{
+.derecha .right {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     background-color: #502a6e;
     color: #ffffff;
 }
 
 
+
 .right {
     margin-left: 20px;
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 .left{

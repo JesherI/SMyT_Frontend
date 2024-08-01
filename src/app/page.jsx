@@ -14,10 +14,10 @@ export default function Home() {
         </div>
         <div className="container">
           <div className="texto">
-            <h1>hola</h1>
+            <h1></h1>
           </div>
           <div className="imagen">
-            <h1>hola</h1>
+            <h1></h1>
           </div>
         </div>
       </main>

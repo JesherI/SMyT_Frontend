@@ -8,6 +8,9 @@ export default function Home() {
     <div>
       <Header></Header>
       <Navbar></Navbar>
+      <div className="title">
+        <h1>Información</h1>
+      </div>
       <Footer></Footer>
     </div>
   )

@@ -27,11 +27,9 @@
 
 .texto{
     margin: 0;
-    background-color: black;
     width: 60%;
 }
 
 .imagen {
-    background-color: aqua;
     width: 40%;
 }

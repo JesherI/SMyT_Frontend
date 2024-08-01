@@ -8,9 +8,12 @@ importers:
 
   .:
     dependencies:
+<<<<<<< HEAD
       axios:
         specifier: ^1.7.2
         version: 1.7.2
+=======
+>>>>>>> 1648733a59039d7a9bdc27c2762d098d55a22c48
       leaflet:
         specifier: ^1.9.4
         version: 1.9.4

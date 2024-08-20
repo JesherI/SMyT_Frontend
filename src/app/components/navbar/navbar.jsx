@@ -19,10 +19,12 @@ function Navbar() {
                 <div className="right">
                     <Link href="/sing-up">Registrarse</Link>
                 </div>
-                
                 <div className="right">
-                    <Link href="/licences">Temp</Link>
+                    <Link href="/menu">Regresar</Link>
                 </div>
+                
+
+                
             </div>
         </nav>
     )

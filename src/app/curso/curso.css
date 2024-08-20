@@ -1,0 +1,72 @@
+.curso-form {
+    width: 100%;
+    max-width: 800px; 
+    margin: auto;
+    padding: 80px 20px; 
+    border-radius: 20px; 
+    padding-top: 15px;
+  }
+  
+  .curso-form div {
+    margin-bottom: 15px;
+  }
+  
+  .label-curso {
+    font-size: 26px; 
+    margin-bottom: 5px;
+    color: #59237E; 
+  }
+  
+  .input-curso, .input-licencia, .textarea-descripcion, .input-contenido {
+    width: 100%;
+    margin-top: 20px; 
+    padding: 10px; 
+    border: none; 
+    background: #F2F2F2; 
+    font-size: 16px; 
+    border-radius: 4px;
+    outline: none; 
+    border: 1px solid #59237E;
+
+  }
+  
+  .textarea-descripcion {
+    height: 120px; 
+    resize: horizontal;
+  }
+  
+  .btn-agregar {
+    background-color: #59237E; 
+    color: white; 
+    padding: 10px 40px; 
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-agregar:hover {
+    background-color: #7a12916d; 
+    color: #59237E;
+    margin-top: 10px;
+    margin-left: 15px; 
+  }
+  
+  .curso-form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .form-title {
+    color: #59237E;
+    font-family: 'Georgia', serif; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-bottom: 30px;
+    text-align: center;
+  
+  }
+  

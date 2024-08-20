@@ -1,0 +1,39 @@
+/* menu.css */
+.menu {
+    padding: 20px;
+    text-align: center;
+    color: #59237E;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-links {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-links li {
+    margin: 10px 0;
+}
+
+.button-link {
+    padding-top: 30px;
+    background-color:#59237E;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    background-color: #7a12916d;
+}

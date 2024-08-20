@@ -1,51 +1,37 @@
+import Header from '../components/header/header';
 import Link from 'next/link';
-import Header from "../components/header/header"
-import Footer from "../components/footer/footer"
-import Navbar from "../components/navbar/navbar"
-import "./login.css"
-import "../global.css"
-export default function page() {
+import "./estilos.css"; 
+import "../global.css";
+
+export default function RegisterPage() {
   return (
-    <div>
-      <Header></Header>
-      <Navbar></Navbar>
-      <br /><br /> <br /><br /><br />
-      <div class="contenedor__todo">
-        <div class="caja__trasera">
-          <div class="caja__trasera-login">
+    <>
+      <Header />
+      <div className="contenedor__todo">
+        <div className="caja__trasera">
+          <div className="caja__trasera-register">
             <h3>¿Ya tienes una cuenta?</h3>
             <p>Inicia sesión para entrar en la página</p>
-            <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+            <Link href="/login">
+              <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+            </Link>
           </div>
-          <div class="caja__trasera-register">
-            <h3>¿Aún no tienes una cuenta?</h3>
-            <p>Regístrate para que puedas iniciar sesión</p>
-            <button id="btn__registrarse">Regístrarse</button>
+          <div className="contenedor__login-register">
+            <form action="" className="formulario__login">
+              <h2>Registrarse</h2>
+              <div className="formulario">
+                <input type="text" placeholder="Nombre(s)" />
+                <input type="text" placeholder="Apellido Paterno" />
+                <input type="text" placeholder="Apellido Materno" />
+                <input type="text" placeholder="Correo Electrónico" />
+                <input type="text" placeholder="CURP" />
+                <input type="password" placeholder="Contraseña" />
+              </div>
+              <button>Registrarse</button>
+            </form>
           </div>
-        </div>
-        <div class="contenedor__login-register">
-          <form action="" className="formulario__login">
-            <h2>Iniciar Sesión</h2>
-            <input type="text" placeholder="CURP" />
-            <input type="password" placeholder="Contraseña" />
-            <button>Entrar</button>
-          </form>
-
-          <form action="" className="formulario__register">
-            <h2>Regístrarse</h2>
-            <div class="formulario" >
-              <input type="text" placeholder="Nombre(s)" />
-              <input type="text" placeholder="Apellido Paterno" />
-              <input type="text" placeholder="Apellido Materno" />
-              <input type="text" placeholder="Correo Electronico" />
-              
-              <input type="text" placeholder="CURP" />
-              <input type="password" placeholder="Contraseña" />
-            </div>
-            <button>Regístrarse</button>
-          </form>
         </div>
       </div>
-    </div>
+    </>
   );
 }

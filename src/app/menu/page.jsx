@@ -27,6 +27,9 @@ function Menu() {
                         <li>
                             <Link href="/certificado" className='button-link'>Certificado</Link>
                         </li>
+                        <li>
+                            <Link href="/evaluacion" className='button-link'>Ecxamen</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
